@@ -1,0 +1,17 @@
+body,
+html {
+    background-image: url("../imagenes/water1.gif");
+    background-size: 100px;
+    background-color: aqua;
+    width: 100%;
+    height: 100%;
+}
+
+.pecera {mix-blend-mode: hard-light;
+    background: rgb(2, 0, 36);
+    background: linear-gradient(357deg, rgb(4, 0, 80) 0%, rgba(9, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 100%);
+}
+
+.text-stroke{
+    text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
+}
