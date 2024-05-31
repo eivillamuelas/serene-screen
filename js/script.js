@@ -2,11 +2,11 @@ function animarPez() {
     anime({
         targets: ".pez",
         keyframes: [
-            {translateY: function () {return anime.random(-300, 300)}},
-            {translateX: function () {return anime.random(-500, 500)}},
-            {translateY: function () {return anime.random(-300, 300)}},
-            {translateX: function () {return anime.random(-500, 500)}},
-            {translateY: function () {return anime.random(-300, 300)}},
+            {translateY: function () {return anime.random(-100, 100)}},
+            {translateX: function () {return anime.random(-100, 100)}},
+            {translateY: function () {return anime.random(-100, 100)}},
+            {translateX: function () {return anime.random(-100, 100)}},
+            {translateY: function () {return anime.random(-100, 100)}},
         ],
         duration: function () {return anime.random(1800, 2800);},
         easing: "easeOutElastic(1, 1.8)",
